@@ -1,0 +1,10 @@
+--drop table cleaning.vended;
+CREATE TABLE IF NOT EXISTS CLEANING.VENDED
+	(VENDED INT
+	,ZONA INT
+	,CIUDAD TEXT
+	,NOMBRE TEXT
+	,HashKey_BK TEXT
+	,Hashkey_Data TEXT
+	,DATA_Source TEXT
+	,ModifiedDate TIMESTAMP);

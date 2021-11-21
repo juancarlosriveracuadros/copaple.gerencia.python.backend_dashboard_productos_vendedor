@@ -1,0 +1,24 @@
+CREATE TABLE IF NOT EXISTS STAGE.VentasDiarias(
+	FECHA DATE
+	,ZONA int
+	,VENDED int
+	,CIUDAD text
+	,NOMBRE text
+	,LINEA_NOMBRE text
+	,LINEA int
+	,LINEA_DESCRIPCION text
+	,GRUPO_NOMBRE text
+	,GRUPO int
+	,GRUPO_DESCRIPCION text
+	,PRODUCTO BIGINT
+	,REFERENCIA text
+	,DESCRIPCION text
+	,MARCA text
+	,CANTIDAD float
+	,VALOR float
+	,DATA_SOURCE text
+	,ModifiedDate timestamp
+--	,rowguid text
+);
+--SELECT * FROM STAGE.VENTASDIARIAS;
+--DROP TABLE STAGE.VENTASDIARIAS;
